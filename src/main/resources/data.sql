@@ -1,0 +1,6 @@
+INSERT INTO Product (id, name, description, brand, price, category, release_date, product_available, stock_quantity) VALUES
+                                                                                                          (1, 'Smartphone X1', 'High-performance smartphone with 128GB storage', 'TechBrand', 799.99, 'Electronics', '2023-09-15', true, 50),
+                                                                                                          (2, 'Gaming Laptop Pro', 'Powerful gaming laptop with RTX 3070 GPU', 'GameTech', 1999.99, 'Computers', '2022-11-20', true, 30),
+                                                                                                          (3, 'Wireless Headphones', 'Noise-cancelling over-ear headphones', 'SoundMax', 249.99, 'Accessories', '2024-01-10', true, 100),
+                                                                                                          (4, '4K LED TV', '55-inch Ultra HD LED TV with HDR support', 'VisionPlus', 999.99, 'Home Entertainment', '2021-07-25', true, 20),
+                                                                                                          (5, 'Fitness Smartwatch', 'Water-resistant smartwatch with heart-rate monitor', 'FitWear', 199.99, 'Wearables', '2023-05-05', false, 0);
