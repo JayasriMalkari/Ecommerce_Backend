@@ -40,4 +40,8 @@ public class ProductService {
     public void deleteProduct(long id) {
         repository.deleteById(id);
     }
+
+    public List<Product> searchproducts(String keyword) {
+        return repository.searchProducts(keyword);
+    }
 }

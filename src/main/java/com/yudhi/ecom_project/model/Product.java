@@ -25,6 +25,7 @@ public class Product {
     private Date releaseDate;
     private boolean ProductAvailable;
     private int stockQuantity;
+
     private String imageName;
     private String imageType;
     @Lob
