@@ -17,7 +17,7 @@ public class ProductService {
          return repository.findAll();
     }
 
-    public Product getProductById(long id) {
+    public Product getProductById(int id) {
         //return repository.findById(id).orElse(new Product());
         return repository.findById(id).orElse(null);
     }
@@ -29,7 +29,7 @@ public class ProductService {
        return repository.save(product);
     }
 //update
-    public Product updateProduct(long id, Product product, MultipartFile imageFile) throws IOException {
+    public Product updateProduct(int id, Product product, MultipartFile imageFile) throws IOException {
         product.setImageDate(imageFile.getBytes());
         product.setImageName(imageFile.getOriginalFilename());
         product.setImageType(imageFile.getContentType());
@@ -37,7 +37,7 @@ public class ProductService {
 
     }
 //delete
-    public void deleteProduct(long id) {
+    public void deleteProduct(int id) {
         repository.deleteById(id);
     }
 
